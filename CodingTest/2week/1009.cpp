@@ -5,7 +5,7 @@ int main() {
 	for (int i = 0; i < t; i++) {
 		n = 0;
 		scanf("%d %d", &a, &b);
-		//ÃÑ µ¥ÀÌÅÍÀÇ °³¼ö´Â aÀÇ bÁ¦°ö
+		//ì´ ë°ì´í„°ì˜ ê°œìˆ˜ëŠ” aì˜ bì œê³±
 		for (int j = 0; j < b; j++) {
 			n *= a;
 			printf("%d", n%10);
